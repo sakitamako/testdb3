@@ -11,7 +11,7 @@ public class DBConnector3 {
 	/*mysql用のURLの指定の仕方。
 	 * localhost（自分の使っているPC）testdb（データベース名）を使う。
 	 * ？以降はオプションなので必須ではない*/
-	private static String url = "jdbc:mysql://localhost/testdb?autoReconnect=true&useSSL=false";
+	private static String url = "jdbc:mysql://localhost/testdb3?autoReconnect=true&useSSL=false";
 
 	//上記で指定したrootアカウントに対するパスワードをmysqlに指定している
 	private static String user = "root";
