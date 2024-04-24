@@ -13,7 +13,9 @@ public class Test3 {
 		
 		//メソッドを実行
 		//4
-		dao.select("taro", "123");
+		dao.select("1", "taro", "123");
+		//6
+		dao.selectByName("taro");
 		
 	}
 
